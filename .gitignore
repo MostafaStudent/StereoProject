@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+
+# Output directories
+out_sgbm/
+out_fs/
+out_ffs/
+
+# Calibration files (generated per-setup)
+stereo_calibration.npz
+calib_*.npz
+
+# Point clouds (generated output)
+*.ply
+
+# Image data (too large for git)
+images/
+
+# IDE
+.idea/
