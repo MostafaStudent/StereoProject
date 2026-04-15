@@ -42,7 +42,7 @@ images/
 
 ### Calibration images (`cam0/` and `cam1/`)
 
-- Chessboard pattern photos taken **independently** by each camera
+- Chessboard pattern photos taken **simultaneously** by each camera
 - Default pattern: **8 x 11** inner corners, **60 mm** square size
 - These are used for intrinsic calibration of each camera and stereo calibration (R, T)
 - Left and right images must be taken of the **same chessboard poses** in the **same order** (filenames are sorted and paired)
