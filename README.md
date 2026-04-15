@@ -10,12 +10,19 @@ Stereo vision pipeline for 3D point cloud reconstruction from calibrated stereo 
 
 - **Python 3.12**
 
+For the deep learning backends (FS / FFS), install PyTorch with CUDA **first** (check your CUDA version with `nvidia-smi`):
+
+```bash
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+```
+
+Then install the remaining dependencies:
+
 ```
 pip install -r requirements.txt
 ```
 
-For the deep learning backends (FS / FFS), you also need:
-- PyTorch with CUDA
+For FS / FFS you also need:
 - A local clone of [FoundationStereo](https://github.com/NVlabs/FoundationStereo) or [Fast-FoundationStereo](https://github.com/NVlabs/Fast-FoundationStereo) with pretrained weights
 
 ## Image Folder Structure

@@ -1,8 +1,9 @@
 numpy
 opencv-python
 open3d
-torch
-torchvision
+# Install PyTorch with CUDA separately first — see README
+# torch
+# torchvision
 pyyaml
 omegaconf
 scipy
@@ -12,3 +13,6 @@ huggingface_hub
 pillow
 PyTurboJPEG
 imageio
+trimesh
+joblib
+pandas
