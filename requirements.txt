@@ -1,3 +1,6 @@
 numpy
 opencv-python
 open3d
+torch
+pyyaml
+omegaconf
