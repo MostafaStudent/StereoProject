@@ -8,6 +8,8 @@ Stereo vision pipeline for 3D point cloud reconstruction from calibrated stereo 
 
 ## Requirements
 
+- **Python 3.12**
+
 ```
 pip install -r requirements.txt
 ```
